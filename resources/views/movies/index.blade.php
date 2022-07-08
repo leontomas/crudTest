@@ -1,4 +1,4 @@
-index.blade.php@extends('movies.layout')
+@extends('movies.layout')
  
 @section('content')
     <div class="row">
@@ -36,16 +36,16 @@ index.blade.php@extends('movies.layout')
         @foreach ($movies as $movies)
         <tr>
             <td>{{ ++$i }}</td>
-            <td>{{ $movie->name }}</td>
-            <td>{{ $movie->detail }}</td>
-            <td>{{ $movie->name }}</td>
-            <td>{{ $movie->detail }}</td>
-            <td>{{ $movie->name }}</td>
-            <td>{{ $movie->detail }}</td>
-            <td>{{ $movie->name }}</td>
-            <td>{{ $movie->detail }}</td>
-            <td>{{ $movie->name }}</td>
-            <td>{{ $movie->detail }}</td>
+            <td>{{ $movie->title }}</td>
+            <td>{{ $movie->movie_url }}</td>
+            <td>{{ $movie->description }}</td>
+            <td>{{ $movie->cast }}</td>
+            <td>{{ $movie->language }}</td>
+            <td>{{ $movie->quality }}</td>
+            <td>{{ $movie->tags }}</td>
+            <td>{{ $movie->duration }}</td>
+            <td>{{ $movie->year }}</td>
+            <td>{{ $movie->upload_date }}</td>
             <td>
                 <form action="{{ route('movies.destroy',$movie->id) }}" method="POST">
    

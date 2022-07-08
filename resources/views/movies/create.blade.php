@@ -85,26 +85,17 @@
 
             <div class="form-group">
                 <strong>Tags:</strong>
-                <input type="text" name="tag" class="form-control" placeholder="Tag">
+                <input type="text" name="tags" class="form-control" placeholder="Tags">
             </div>
 
         </div>
 
         <div class="col-xs-12 col-sm-12 col-md-12">
 
-            <div class="form-group">
+            <div class="form-group">`
                 <strong>Duration:</strong>
                 <input type="text" name="duration" class="form-control" placeholder="Duration">
             </div>
-
-        </div><div class="col-xs-12 col-sm-12 col-md-12">
-
-            <div class="form-group">
-                <strong>Duration:</strong>
-                <input type="text" name="duration" class="form-control" placeholder="Duration">
-            </div>
-
-        </div>
 
         <div class="col-xs-12 col-sm-12 col-md-12">
 
@@ -118,7 +109,7 @@
         <div class="col-xs-12 col-sm-12 col-md-12">
 
             <div class="form-group">
-                <strong>Upload DAte:</strong>
+                <strong>Upload Date:</strong>
                 <input type="text" name="upload_date" class="form-control" placeholder="Upload Date">
             </div>
 
